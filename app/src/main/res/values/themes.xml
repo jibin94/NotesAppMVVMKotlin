@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NotesApp" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/green_color</item>
+        <item name="colorPrimaryVariant">@color/green_color
+        </item> <!-- Important for newer Android -->
+        <item name="colorOnPrimary">@color/white</item>   <!-- For text on primary -->
+        <item name="android:statusBarColor">@color/theme_color</item>
+    </style>
+
+    <style name="Theme.NotesAppMVVMKotlin" parent="Base.Theme.NotesApp" />
+
+    <style name="progressBarStyle">
+        <item name="colorSecondary">@color/green_color</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Modal</item>
+    </style>
+
+    <style name="Modal" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/delete_sheet</item>
+    </style>
+</resources>
