@@ -25,4 +25,13 @@ Room is built around three main components:
 | **DAO (Data Access Object)** | Defines methods to interact with the database (insert, delete, update, query). |
 | **Database**                 | The main access point to the database, holding references to DAOs.             |
 
+## Room Components
+![](https://github.com/jibin94/NotesAppMVVMKotlin/blob/main/room_components.png)
+
+## Room Annotations
+![](https://github.com/jibin94/NotesAppMVVMKotlin/blob/main/annotations.png)
+
+## Project Structure
+![](https://github.com/jibin94/NotesAppMVVMKotlin/blob/main/project_structure.png)
+
 
